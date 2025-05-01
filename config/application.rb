@@ -35,5 +35,8 @@ module DanKim
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.generators.helper = false
+    config.generators.test_framework = false
   end
 end
