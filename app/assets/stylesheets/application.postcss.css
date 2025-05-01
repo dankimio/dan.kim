@@ -5,3 +5,11 @@
   --font-serif: "PT Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times,
     serif;
 }
+
+a {
+  @apply underline;
+
+  &:hover {
+    @apply text-gray-600;
+  }
+}
