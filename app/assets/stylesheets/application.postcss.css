@@ -1,2 +1,7 @@
 /* Entry point for your PostCSS build */
 @import "tailwindcss";
+
+@theme {
+  --font-serif: "PT Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+}
