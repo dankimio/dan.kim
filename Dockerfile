@@ -11,6 +11,8 @@
 ARG RUBY_VERSION=3.4.2
 FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
+LABEL org.opencontainers.image.source=https://github.com/dankimio/dan.kim
+
 # Rails app lives here
 WORKDIR /rails
 
